@@ -1,0 +1,19 @@
+{
+  "name": "full_mean_wall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "^4.13.4",
+    "express-session": "^1.14.2",
+    "mongoose": "latest",
+    "mongoose-validators": "^0.1.0"
+  }
+}

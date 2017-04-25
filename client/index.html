@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="App">
+  <head>
+    <meta charset="utf-8">
+    <script src='angular/angular.js'></script>
+    <script src='angular-route/angular-route.js'></script>
+    <script src='angular-cookies/angular-cookies.js'></script>
+    <script src="assets/app.js" charset="utf-8"></script>
+    <script src="assets/controllers/userController.js"></script>
+    <script src="assets/factories/userFactory.js"></script>
+    <script src="assets/controllers/listController.js"></script>
+    <script src="assets/factories/listFactory.js"></script>
+    <script src="assets/controllers/userListController.js"></script>
+
+
+    <title>BUCKET LISTS</title>
+  </head>
+  <body>
+    <div ng-controller="userController" ng-show="flag">
+      <a href="#!/dashboard"><button>Home</button></a>
+      <button ng-click="logout()" >Logout</button>
+    </div>
+    <div ng-view="">
+    </div>
+  </body>
+</html>
